@@ -158,8 +158,8 @@ def main():
         return
 
     # User Inputs
-    asp_net_session_id = input("Enter ASP.NET_SessionId (e.g., ic34fp3pptdqmnu1mi1uhfo5): ").strip()
-    session_id = input("Enter strSession (e.g., 7d061e4430104af782701af37528c0db): ").strip()
+    asp_net_session_id = input("Enter ASP.NET_SessionId: ").strip()
+    session_id = input("Enter strSession: ").strip()
     
     try:
         num_threads = int(input("Enter number of threads (default 4): ").strip() or "4")
