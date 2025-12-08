@@ -20,8 +20,7 @@ This tool downloads DICOM files for patients listed in `data/**/response.json` f
    python main.py
    ```
 4. Follow the on-screen prompts to enter:
-   - `ASP.NET_SessionId`: The session cookie value.
-   - `strSession`: The session ID used in the query parameters.
+   - Username and password of an account having export capability
    - Number of threads (default is 4).
 
 ## Directory Structure
